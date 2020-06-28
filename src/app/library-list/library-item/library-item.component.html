@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-xs-12">
+        <ul class="list-group">
+            <div *ngFor="let book of filteredBookList">
+                <div style="font-size: 16px; font-weight: bolder;">{{book.bookTitle}}</div>
+                <div style="font-size: 11px;">{{book.bookDesc}}</div>
+                <p>{{book.content}}</p>
+                </div>
+            </ul>
+    </div>
+</div>

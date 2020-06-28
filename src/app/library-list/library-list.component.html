@@ -1,0 +1,11 @@
+<div class="row">
+    <nav class="col-xs-10">
+        <ul class="list-group">
+                <a class="list-group-item" style="cursor: pointer;" 
+                *ngFor="let item of libraryList" 
+                routerLink="libraryList/{{item.libraryId}}" >{{item.libraryName}}</a>
+        </ul>
+    </nav>
+</div>
+
+
